@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(rgba(150,100 ,60,0.5), rgba(150,100,60,0.5)), url('bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 420px;
+    background-color: transparent;
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 30px 30px rgba(0,0,0,0.5);
+}
+
+.login-form {
+    /*text-align: center;*/
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.login-form .fgp{
+	text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
